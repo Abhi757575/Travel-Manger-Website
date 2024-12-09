@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <nav class="navbar background">
+      <ul class="navlinks">
+         <div class="logo"><img src="moon.png" alt="logo"></div>
+            <li><a href="TravelManager.html">Home</a></li>
+            <li><a href="flight.html">Flights</a></li>
+            <li><a href="hotel.html">Hotel Bookings</a></li>
+            <li><a href="cruise.html">Cruise</a></li>
+            <li><a href="cab.html">Airport Cabs</a></li>
+            <li><a href="ourcontact.html">Contact</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+      </ul>
+      <div class="rightnav">
+         <input type="text" name="search" id="search">
+         <button class="btnsm"> Search </button>
+      </div>
+    </nav>
+    <div class="header-image">
+      <img src="hotelkla.jpg" alt="header Image" class="header-image">
+    </div>     
+    <div class="omega">
+      <div class="booking-form"> 
+          <div class="form-content">
+            <h1>Book Your Stay</h1>
+            <div class="form-group">
+              <label for="arrival-date">Arrival Date:</label>
+              <input type="date" id="arrival-date" name="arrival-date" required>
+            </div>
+            <div class="form-group">
+              <label for="departure-date">Departure Date:</label>
+              <input type="date" id="departure-date" name="departure-date" required>
+            </div>
+            <div class="form-group">
+              <label for="room-type">Room Type:</label>
+              <select id="room-type" name="room-type" required>
+                  <option value="">Select Room Type</option>
+                  <option value="single">Single Room</option>
+                  <option value="double">Double Room</option>
+                  <option value="suite">Suite</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="number-of-guests">Number of Guests:</label>
+                <input type="number" id="number-of-guests" name="number-of-guests" required>
+            </div>
+            <div class="form-group">
+                <label for="special-requests">Special Requests:</label>
+                <textarea id="special-requests" name="special-requests"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <section>
+              <h3>Payment Information</h3>
+              <label for="card-type">Card Type:</label>
+              <select id="card-type" name="card-type">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="amex">American Express</option>
+              </select><br><br>
+              <label for="card-number">Card Number:</label>
+              <input type="text" id="card-number" name="card-number"><br><br>
+              <label for="expiration-date">Expiration Date:</label>
+              <input type="date" id="expiration-date" name="expiration-date"><br><br>
+              </section>
+              <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required>
+              </div>
+              <button type="submit">Book Now</button>
+              </form>
+                 
+          </div>
+      </div>
+    </div>       
+  </body>
+  <footer>
+    <div class="footer-content">
+        <h3>Travel Manager</h3>
+        <p>Travel Manager is a  website where you will find .</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-reddit"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2024 <a href="#">Travel Manager</a>  </p>
+    </div>
+
+  </footer>
+</html>

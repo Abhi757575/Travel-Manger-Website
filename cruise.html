@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cruise Booking Form</title>
+    <link rel="stylesheet" href="ccruise.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="navlinks">
+           <div class="logo"><img src="moon.png" alt="logo"></div>
+           <li><a href="TravelManager.html">Home</a></li>
+            <li><a href="flight.html">Flights</a></li>
+            <li><a href="hotel.html">Hotel Bookings</a></li>
+            <li><a href="cruise.html">Cruise</a></li>
+            <li><a href="cab.html">Airport Cabs</a></li>
+            <li><a href="ourcontact.html">Contact</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+          
+        </ul>
+        <div class="rightnav">
+           <input type="text" name="search" id="search">
+           <button class="btnsm"> Search </button>
+        </div>
+    </nav>
+    <div class="header-image">
+        <img src="mariachi.jpg" alt="header Image" class="header-image">
+    </div>
+    <div class="omega">
+        <div class="booking-form"> 
+            <div class="form-content">
+            <form>
+                <h1>Book Your Cruise</h1>
+                <h3>Cruise Details</h3>
+                <div class="cruise-form">
+                    <div class="item1">
+                        <label for="c-operator">Cruise Operator:</label>
+                        <select id="opp" name="opp">
+                            <option value="royalcaribbeaninternational">Royal Caribbean International</option>
+                            <option value="mediterraneancruise">Mediterranean Cruise</option>
+                            <option value="norwegiancruiseline">Norwegian Cruise Line</option>
+                            <option value="holland">Holland America Line</option>
+                            <option value="disney">Disney Cruise Line</option>
+                        </select>
+                        <label for="cruise-type">Cruise Type:</label>
+                        <select id="cruise-type" name="cruise-type">
+                            <option value="luxury">Luxury</option>
+                            <option value="budget">Budget</option>
+                            <option value="family-friendly">Family-Friendly</option>
+                            <option value="premium">Premium</option>
+                            <option value="adventure">Adventure</option>
+                        </select>
+    
+                        <label for="cruise-duration">Cruise Duration:</label>
+                        <select id="cruise-duration" name="cruise-duration">
+                            <option value="3-5 nights">3-5 nights</option>
+                            <option value="6-8 nights">6-8 nights</option>
+                            <option value="9-12 nights">9-12 nights</option>
+                            <option value="13+ nights">13+ nights</option>
+                        </select>
+    
+                        <label for="destination">Destination:</label>
+                        <select id="destination" name="destination">
+                            <option value="caribbean">Caribbean</option>
+                            <option value="mediterranean">Mediterranean</option>
+                            <option value="alaska">Alaska</option>
+                            <option value="bahamas">Bahamas</option>
+                            <option value="hawaii">Hawaii</option>
+                        </select>
+                        <h3>Traveler Information</h3>
+                        <div class="item2">
+                            <label for="first-name">First Name:</label>
+                            <input type="text" id="first-name" name="first-name" required>
+            
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name" name="last-name" required>
+            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+            
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <h3>Cabin and Accommodations</h3>
+                        <div class="item3">
+                            <label for="cabin-type">Cabin Type:</label>
+                            <select id="cabin-type" name="cabin-type">
+                                <option value="single">Single</option>
+                                <option value="double">Double</option>
+                                <option value="suite">Suite</option>
+                                <option value="balcony">Balcony</option>
+                                <option value="oceanview">Oceanview</option>
+                            </select>
+            
+                            <label for="number-of-passengers">Number of Passengers:</label>
+                            <input type="number" id="number-of-passengers" name="number-of-passengers" min="1" required>
+            
+                            <label for="bedding-preference">Bedding Preference:</label>
+                            <select id="bedding-preference" name="bedding-preference">
+                                <option value="king">King</option>
+                                <option value="queen">Queen</option>
+                                <option value="twin">Twin</option>
+                            </select>
+                        </div>
+                        <h3>Dates and Itinerary</h3>
+                            <label for="departure-date">Departure Date:</label>
+                            <input type="date" id="departure-date" name="departure-date" required>
+            
+                            <label for="return-date">Return Date:</label>
+                            <input type="date" id="return-date" name="return-date" required>
+            
+                            <label for="itinerary">Itinerary:</label>
+                            <textarea id="itinerary" name="itinerary"></textarea>
+
+                        <h3>Special Requests</h3>
+                        <label for="special-requests">Special Requests:</label>
+                        <textarea id="special-requests" name="special-requests"></textarea>
+            
+                        <label for="dietary-restrictions">Dietary Restrictions:</label>
+                        <textarea id="dietary-restrictions" name="dietary-restrictions"></textarea>
+                   
+                        <h3>Payment Information</h3>
+                        <label for="card-type">Card Type:</label>
+                        <select id="card-type" name="card-type">
+                            <option value="visa">Visa</option>
+                            <option value="mastercard">Mastercard</option>
+                            <option value="amex">American Express</option>
+                        </select><br><br>
+                        
+                        <label for="card-number">Card Number:</label>
+                        <textarea id="card-number" id="card-number" name="card-number"></textarea>
+                        
+                        <label for="expiration-date">Expiration Date:</label>
+                        <input type="date" id="expiration-date" name="expiration-date"><br><br>
+                        
+                        <button type="submit">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            </form>     
+        </div> 
+    </div>
+</body>
+<footer>
+    <div class="footer-content">
+        <h3>Travel Manager</h3>
+        <p>Travel Manager is a  website where you will find .</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-reddit"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2024 <a href="#">Travel Manager</a>  </p>
+    </div>
+
+</footer>
+    
+</html>

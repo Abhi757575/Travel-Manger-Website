@@ -1,0 +1,70 @@
+ <div class="container">
+      <div class="card">
+         <div class="places">
+         <h2><i>Underated places to visit this month</i></h2>
+           
+         <h3 align="center"></h3>
+         <a href="#" >  
+         <img src="nowater.jpg" alt="eren" class="center" title="turbo 12.2l" width="200" height="200" loading="lazy"></a>  
+         <u><h3>Africa</h3></u>
+         <p><br>africa i like to move it move it we like to move it ~king julian</p>
+         </div>  
+      </div>
+
+      <div class="card">
+         <div class="places">
+       
+             
+            <h3 align="center"></h3>
+            <a href="#" >  
+            <img src="eiffel tower.jpg" alt="eren" class="center" title="turbo 12.2l" width="200" height="200" loading="lazy"></a>  
+            <h3>paris</h3>
+            <p><br>who is in paris?</p>
+         </div>  
+      </div>
+
+      <div class="card">
+         <div class="places">
+         
+               
+         <h3 align="center"></h3>
+         <a href="#" >  
+         <img src="mount_fuji.jpg" alt="eren" class="center" title="turbo 12.2l" width="200" height="200" loading="lazy"></a>  
+         <h3>japan</h3>
+         <p><br>i dont know ? ramen</p>
+         </div>  
+      </div>
+  </div>     
+  <div class="hotel">
+      <a href="book.html">Book your trip now!!!</a>
+      <h2>#Book your hotels hassle free-</h2>
+      <img src="Hotel_W.jpg" alt="" title="turbo 12.2l" width="200" height="200" loading="lazy">
+      <h4 align="center"> We have a prominent hotel chain operating in over 30 countries worldwide. The company offers a range of accommodations, from budget-friendly options to luxury resorts, catering to diverse traveler needs and preferences.</h4>
+      <h4 align="center"> Includes budget, mid-range, and luxury hotel brands</h4>
+      <h4 align="center"> Focuses on reducing environmental impact and supporting local communities<br> Mobile check-in, keyless room entry, and personalized guest experiences</h4>
+      <a href="hotel.html">Book your trip now!!!</a>
+   </div>   
+  <div class="cruise">
+      <h2>#Cruises for this summer-</h2>
+      <img src="ship.jpg" alt="ship" title="turbo 12.2l" width="600" height="200" loading="lazy">
+          
+         
+       <h4 align="center">"Experience the Caribbean like never before with our exclusive partnership with Norwegian Cruise Line offer!
+            Set sail on the stunning Norwegian Joy and explore pristine beaches, vibrant cultures, and crystal-clear waters. Book through  <a href="hotel.html">Book your trip now!!!</a> and enjoy:
+            
+            Up to 40% off cruise fares
+            Free open bar package
+            $50 shore excursion credit per port
+            
+            Plus, receive our insider's guide to the best Caribbean hideaways – only when you book with us!
+            Limited time offer: 50% off on all trips booked during this summer</h4>
+   </div>       
+         
+  
+   <footer>
+    <p></p>
+    </footer>
+   </body>
+      
+  
+</html>
